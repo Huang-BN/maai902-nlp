@@ -19,9 +19,8 @@
 
 ## How to Run
 1. Clone this repository.
-2. Install dependencies: `pip install -r requirements.txt` (requires `transformers`, `datasets`, `torch`, `scikit-learn`, `pandas`).
-3. Set up your Kaggle API credentials (`kaggle.json`) or environment variables to download the dataset.
-4. Run the Jupyter Notebook `maai902_sentiment_analysis.ipynb` top-to-bottom. *(Note: A T4 GPU or better is recommended for the DistilBERT training cell).*
+2. Set up your Kaggle API credentials (`kaggle.json`) or environment variables to download the dataset.
+3. Run the Jupyter Notebook `maai902_movie-reviews.ipynb` top-to-bottom. *(Note: A T4 GPU or better is recommended for the DistilBERT training cell).*
 
 ## Ethics and Limitations
 * **Sequence Limits:** The model is capped at 512 tokens. Highly detailed, long-form reviews that place their final verdict at the very end may be truncated, leading to misclassification.
